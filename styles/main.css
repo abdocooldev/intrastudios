@@ -3,9 +3,9 @@
     src: url("../files/candara.ttf");
 }
 :root {
-	--main-color: #2e3094;
+	--main-color: #04042c;
 	--light-color: #ffffff;
-	--stars-color: #fca404;
+	--stars-color: #ffffff;
 }
 * {
   font-family: "candara", sans-serif;
@@ -53,11 +53,6 @@ a {
         font-size: 28pt;
 		letter-spacing: 5px;
     }		
-}
-@media (max-width: 425px) {
-    #main-content h2, #main-content h1 {
-        font-size: 20pt;
-    }
 }
 /* Contact Page */
   #main-content form {
