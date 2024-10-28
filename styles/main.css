@@ -15,6 +15,7 @@ body {
     color: var(--light-color);
     background-color: var(--main-color);
     text-align: center;
+	overflow-x: hidden;
   }
 a {
     text-decoration: none;
@@ -27,9 +28,12 @@ a {
     justify-content: center;
     padding-top: 10px;
 }
-
+#main-header h1 {
+	margin: 0px;
+}
 #main-header img {
     height: 120px;
+	filter: brightness(10);
 }
 /* Main Content */
 #main-content {
@@ -38,7 +42,7 @@ a {
     justify-content: center;
     flex-direction: column;
     padding: 0px 20px;
-    min-height: calc(100vh - (12px + 182px + 60px)); /* 12px: Group Stars / 182px: Header / 60px: Footer */
+    min-height: calc(100vh - (12px + 140px + 50px)); /* 12px: Group Stars / 140px: Header / 50px: Footer */
 
 }
 #main-content h1, #main-content h2  {
@@ -131,7 +135,7 @@ form#join-us #submit:hover, form#join-us input::file-selector-button:hover {
 
 /* Footer */
 #main-footer {
-    height: 60px;
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
